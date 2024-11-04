@@ -1,6 +1,6 @@
 #!/bin/Rscript
 ###############################################################################
-######## library w/ functions for classical ml models using tidymodels ########
+######## library w/ functions for EXPLAINABILITY ########
 ###############################################################################
 ## command: 
 ## output: 
@@ -88,12 +88,3 @@ calculate_all_shap <- function(ml_models_to_run, results_models, expression_data
   
   return(all_results_shap)
 }
-
-# Compara tiempos y resultados de B=1 y B=5, shap cargando modelos desde local vs shap directos (non sei pq)
-# Reorganizar un poquito el main
-# Readme
-# Tiempos totales
-# Lanzar varios ejemplos
-
-
-# Añadir cread directorio en los saves
