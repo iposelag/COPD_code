@@ -5,6 +5,13 @@ The code is structure as follows:
 
 ```bash
 ├── COPD/raw_data/
+    │
+    ├──dea.txt
+    ├──expression.Rda
+    └──disgenet_tables/
+            ├── C0024117_disease_gda_summary.tsv
+            └── disgenet_curated_gene_disease_associations.tsv
+
 └── src/   
     │
     ├── main.R/  
