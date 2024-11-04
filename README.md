@@ -34,7 +34,16 @@ The code is structure as follows:
 ```
 
 ## main.R
-
+Example of command line:  
+```
+Rscript main.R --directory_to_load "../COPD/raw_data" \
+               --file_name "expression" \
+               --target_var "dis_condition" \
+               --directory_to_save "../COPD/results" \
+               --procedure "disease_related" \
+               --disease_code "C0024117" \
+               --ml_models_to_run "rf" "glm
+```
 The main script gives as results two .rds files: 
 
 - results_models.rds
